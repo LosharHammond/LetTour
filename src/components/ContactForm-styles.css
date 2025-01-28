@@ -1,0 +1,92 @@
+.form-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    text-align: center;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    width: 50%;
+    margin: auto;
+}
+
+.form-container input{
+    height: 3rem;
+    padding:    1rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1px solid  #2a2a2a;
+}
+
+.form-container textarea{
+    padding:   1rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1px solid  #2a2a2a;
+}
+
+.form-container button{
+    width: 50%;
+    margin: auto;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #4f3222;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form-container button:hover{
+    color: #fff;
+    background-color: #2a2a2a;
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .form-container{
+        margin: 2rem 3rem;
+        color: #2a2a2a;
+        text-align: center;
+    }
+    
+    .form-container form{
+        width: 70%;
+    }
+
+    .form-container button{
+        padding: 1rem 2.5rem;
+    }
+
+    
+    .form-container button{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .form-container{
+        margin: 2rem 3rem;
+        color: #2a2a2a;
+        text-align: center;
+    }
+
+    .form-container form{
+        width: 85%;
+    }
+
+    .form-container button{
+        width: 50%;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+
